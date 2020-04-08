@@ -1,4 +1,5 @@
 # sourced from https://hub.docker.com/r/alexcoppe/snpeff/dockerfile
+# another example resolwebio/snpeff
 FROM abhi18av/biodragao_base
 MAINTAINER Abhinav Sharma (@abhi18av)
 
