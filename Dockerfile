@@ -19,7 +19,11 @@
 
 FROM resolwebio/snpeff
 MAINTAINER Abhinav Sharma (@abhi18av)
+#RUN /opt/snpeff/snpeff/bin/snpEff download -v Mycobacterium_tuberculosis_h37rv
+
+# The following command downloads all db related to MTB
 RUN /opt/snpeff/snpeff/bin/snpEff download -v Mycobacterium_tuberculosis
+
 
 CMD ["/opt/snpeff/snpeff/bin/snpEff"]
 
